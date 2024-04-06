@@ -84,6 +84,30 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
 }
+  .testimonial {
+      background-color: #f8f9fa;
+      padding: 50px;
+    }
+
+    .testimonial .icon {
+      font-size: 48px;
+      color: #007bff;
+    }
+
+    .testimonial .description {
+      margin-top: 20px;
+    }
+
+    .testimonial .audio-player img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .testimonial .audio-player .username {
+      font-weight: bold;
+    }
 
 body {
   color: rgb(var(--foreground-rgb));
